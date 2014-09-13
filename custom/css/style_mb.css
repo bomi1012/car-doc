@@ -9,3 +9,53 @@
 .leistung-1 {
     background: url("../image/dinstleistung/lackierung.jpg");
 }
+
+.navbar-brand-left-mb {
+    float: left;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #ddd;
+    margin: -45px 5px 15px 6px;
+}
+
+
+.navbar-brand-contact-mb {
+    float: right;
+    font-weight: 400;
+    font-size: 13px;
+    color: #ddd;
+    margin: 10px 5px 0px 6px;
+}
+
+.short_counter {
+    font-size: 45px;
+}
+
+.counter {
+    font-size: 35px;
+}
+
+.text-position-center {
+    text-align: center;
+}
+
+.section_mb {
+    padding: 60px 0;
+}
+
+#map2 {
+    height: 350px;
+}
+
+
+/* rewriting of native css */
+
+.breakPoint {
+    top: -95px; /* Abstand soll größe sein */
+}
+
+.left-padding-baner {
+    float: left;
+}
