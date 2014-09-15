@@ -1,8 +1,11 @@
 <!DOCTYPE html>
+<?php
+require_once 'scr/Application.php';
+$app = new Application();
+?>
 <html lang="en">
-
     <head>
-        <title>Influence - Bootstrap One Page Theme | Business Website Template</title>
+        <title><?php echo $app->title(); ?></title>
 
         <!-- Meta tags-->
         <meta charset="UTF-8">
@@ -15,11 +18,10 @@
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom style -->
-        <link href="assets/css/influence.css" rel="stylesheet">
+        <link href="assets/css/influence.min.css" rel="stylesheet">
 
-        <!-- Font Awesome Icons -->
-        <!--    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">-->
-        <link href="custom/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Font Awesome Icons   -->
+        <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
         <!-- Google Fonts - Lato -->
         <link href="http://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
@@ -27,8 +29,8 @@
         <!-- CSS animations -->
         <link href="assets/css/animate.min.css" rel="stylesheet">
 
-        <!-- Modal Windows - portfolio item -->
-        <link href="assets/css/ModalWindowEffects.min.css" rel="stylesheet">
+        <!-- Modal Windows - portfolio item  -->
+        <link href="assets/css/ModalWindowEffects.css" rel="stylesheet"> 
 
         <!-- Slideshow-->
         <link href="assets/css/slippry.min.css" rel="stylesheet">
@@ -45,10 +47,8 @@
           <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <!-- Custom 
-        http://www.google.de/imgres?imgurl=http://www.autolackiererei-punessen.de/images/lackierung.jpg&imgrefurl=http://www.autolackiererei-punessen.de/lackierung.htm&h=207&w=276&tbnid=-pUfNt99mD-j4M:&zoom=1&tbnh=95&tbnw=126&usg=__asZ6QuGzA4ABW0IOYJA8gHwMALI=&docid=Wmz92qaKgA-AMM&sa=X&ei=nAoSVNfZBqTMyAOw1IDwBA&ved=0CEoQ9QEwBA&dur=613
-        -->
         <link href="custom/css/style_mb.css" rel="stylesheet">
+        <link href="custom/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     </head>
 
@@ -64,10 +64,10 @@
 
 
                     <span class="navbar-brand-contact-mb"> 
-                        <span class="text-primary"><i class="fa fa-phone"></i></span> +49 334 234 678                         
+                        <span class="text-primary"><i class="fa fa-phone"></i></span> 0176 22995033                         
                     </span>
                     <span class="navbar-brand-contact-mb"> 
-                        <span class="text-primary"><i class="fa fa-envelope-o"></i></span> myname@car-doc.info                         
+                        <span class="text-primary"><i class="fa fa-envelope-o"></i></span> e.luppov@car-doc.info                         
                     </span>
                 </div>
                 <div class="navbar-header">
@@ -80,6 +80,9 @@
                     <span class="navbar-brand" data-wow-delay="0s">
                         <span class="text-primary">Car</span>-Doc</span>
                 </div>
+
+
+
                 <div class="collapse navbar-collapse " id="bs-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right" id="nav">
                         <li class="dropdown active">
@@ -89,7 +92,7 @@
                             <a href="#about_us" class="fadeIn">Über uns</a>
                         </li>
                         <li class="dropdown">
-                            <a href="#service" class="fadeIn">Dinstleistungen</a>
+                            <a href="#service" class="fadeIn">Dienstleistungen</a>
                         </li>
                         <li class="dropdown">
                             <a href="#s3" class="fadeIn">Aktuelles</a>
@@ -149,9 +152,9 @@
                         </a>
                     </li>
                     <li class=" ">
-                         <a href="#code" data-toggle="tab" data-wow-delay="0.3s">
-                            <i class="fa fa-map-marker"></i>
-                            <h3>Standorte</h3>
+                        <a href="#code" data-toggle="tab" data-wow-delay="0.3s">
+                            <i class="fa fa-book"></i>
+                            <h3>Kontakte</h3>
                         </a>
                     </li>
                     <li class=" ">
@@ -184,31 +187,80 @@
 
                     <div class="tab-pane animated fadeIn" id="ready">
                         <div class="row">
-                            <div class="col-md-6">
-                                <h2 class="big-title text-primary">Ready for use</h2>
-                                <p class="text-block">Making usually template isn't for us. We are giving you our template for quick start your business.
-                                </p>
+                            <div class="col-md-8 about_uns_time">
+                                <div style="width: 200px; float: left ">
+                                    <span class="text-primary"> Montag - Freitag:</span> 
+                                </div>
+                                <div> 8:00 - 18:00 </div>
 
                                 <div class="space-sm"></div>
-                                <a href="#skills" class="btn btn-primary btn-xlg scroll"><i class="fa fa-chevron-down"></i>Look at our skills</a>
+
+                                <div style="width: 200px; float: left ">
+                                    <span class="text-primary"> Sammstag - Sonntag:</span> 
+                                </div>
+                                <div> nach Vereinbarung </div>
+
+                                <div class="space-sm-60"></div>  
+
+                                <div style="float: left ">
+                                    Möchten Sie einen Termin vereinbaren oder haben Sie Frage zu uns.
+                                    <br />Rufen Sie Rund um die Uhr unseren Kundenservice an oder mailen Sie uns 
+                                    
+                                    
+
+                                </div>
+                                <div class="space-sm"></div>
+                                <div style="width: 100px; float: left ">
+                                    <span class="text-primary"> Telefon:</span> 
+                                </div>
+                                <div> (0172) 620 620 2 </div>
+
+                                <div class="space-sm"></div>
+                                <div style="width: 100px; float: left ">
+                                    <span class="text-primary"> E-Mail:</span> 
+                                </div>
+                                <div> p.wanzeck@car-doc.info </div>
                             </div>
-                            <div class="col-md-6">
-                                <img class="img-mw450" src="custom/image/about_us/open-door.jpeg" alt="Influence theme is ready for use">
+                            <div class="col-md-4">
+                                <img class="img-mw350" src="custom/image/about_us/open-door.jpeg" alt="Influence theme is ready for use">
                             </div>
                         </div>
                     </div>
 
                     <div class="tab-pane animated fadeIn" id="code">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h2 class="big-title text-primary">Ready for use</h2>
-                                <p class="text-block">Making usually template isn't for us. We are giving you our template for quick start your business.
-                                </p>
+                        <div class="row">                                                
+                            <div class="col-md-8 about_uns_time">
+                                <h2 class="big-title text-primary">Kundenservice</h2>    
+                                <div style="width: 30px; float: left ">
+                                    <span class="text-primary"> <i class="fa fa-map-marker"></i></span> 
+                                </div>
+                                <div> Große Ahlmühle 11, 76865 Rohrbach </div>
 
                                 <div class="space-sm"></div>
-                                <a href="" class="btn btn-primary btn-xlg scroll">
-                                    <i class="fa fa-chevron-down"></i>Look at our skills</a>
+
+                                <div style="width: 30px; float: left ">
+                                    <span class="text-primary"> <i class="fa fa-phone-square"></i></span> 
+                                </div>
+                                <div> (0172) 620 620 2 </div>
+
+                                <div class="space-sm"></div>
+                                
+                                <div style="width: 30px; float: left ">
+                                    <span class="text-primary"> <i class="fa fa-envelope-square"></i></span> 
+                                </div>
+                                <div> p.wanzeck@car-doc.info </div>
+
+                      <div class="space-sm-60"></div>  
+                                
+                                <div style="float: left ">
+                                    <span class="text-primary">Wir sind für Sie jeden Tag 24 Stunden erreichtbar!</span> 
+                                </div>
+                                 
                             </div>
+                            <div class="col-md-4">
+                                <img class="img-mw350" src="custom/image/about_us/open-door.jpeg" alt="Influence theme is ready for use">
+                            </div>
+
 
                         </div>
                     </div>
@@ -247,7 +299,7 @@
             <div class="container">   
                 <h2 class="lg-title lg-title-border">Unternehmen auf einen Blick</h2>
 
-                <div class="col-md-4 text-position-center">
+                <div class="col-md-4 text-position-center wow">
                     <h3 class="short_counter">
                         <span class="text-primary">
                             <i class="fa fa-car"></i>                                
@@ -278,14 +330,14 @@
         </div>
         <!-- Background Image Section - 1 -->
         <div class="bg-2-custom-mb bg-center bg-fixed bg-cover">
-            <div class="filling-section bg-filter"></div>
+            <div class="filling-section bg-filter">Test</div>
         </div>
 
         <!-- Our team Section -->
         <span class="breakPoint" id="service"></span>
         <div class="section" >
             <div class="container">
-                <h2 class="lg-title lg-title-border">Dinstleistungen</h2>
+                <h2 class="lg-title lg-title-border">Dienstleistungen</h2>
                 <p class="sub-title">
                     Verschaffen Sie sich einen detaillierten Überblick über unsere Leistungen.
                 </p>
@@ -415,7 +467,7 @@
         <span class="breakPoint" id="s13"></span>
         <div class="bg-grey section">
             <div class="container">
-                <h2 class="lg-title lg-title-border">Dinstleistungen in Bilder</h2>
+                <h2 class="lg-title lg-title-border">Dienstleistungen in Bilder</h2>
 
                 <ul class="filter-tabs">
                     <li class="filter active" data-filter="mix"><span>Alle</span>
@@ -858,7 +910,7 @@
                         <ul class="dark-icons icons-list ">
                             <li>
                                 <a href="#" title="Follow us">
-                                    <i class="fa fa-google-plus google"></i>
+                                    <i class="fa fa-anchor"></i>
                                 </a>
                             </li>
                             <li>

@@ -45,10 +45,18 @@
     padding: 60px 0;
 }
 
-#map2 {
-    height: 350px;
+.about_uns_time {
+    font-size: 1.2em;
+    font-weight: 100;
 }
 
+.img-mw350 {
+    max-width: 350px;
+}
+
+.space-sm-60 {
+    padding-top: 60px;
+}
 
 /* rewriting of native css */
 
