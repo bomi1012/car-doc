@@ -1,59 +1,17 @@
 <!DOCTYPE html>
 <?php
-require_once 'scr/Application.php';
+require_once 'scr/includes.php';
 $app = new Application();
 ?>
+
 <html lang="en">
     <head>
-        <title><?php echo $app->title(); ?></title>
-
-        <!-- Meta tags-->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Influence is based on the newest Twitter Bootstrap 3.2, this one page template is fully responsive, easy customize and ready for your business.">
-        <meta name="keywords" content="bootstrap, design, template, templates, theme, themes, business, portfolio, websites, webdesign, one page" />
-        <meta name="author" content="Jiri Cermak">
-
-        <!-- Bootstrap framework style-->
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Custom style -->
-        <link href="assets/css/influence.min.css" rel="stylesheet">
-
-        <!-- Font Awesome Icons   -->
-        <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
-        <!-- Google Fonts - Lato -->
-        <link href="http://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
-
-        <!-- CSS animations -->
-        <link href="assets/css/animate.min.css" rel="stylesheet">
-
-        <!-- Modal Windows - portfolio item  -->
-        <link href="assets/css/ModalWindowEffects.css" rel="stylesheet"> 
-
-        <!-- Slideshow-->
-        <link href="assets/css/slippry.min.css" rel="stylesheet">
-
-        <!-- Colors Themes -->
-        <!--<link href="assets/css/themes/blue.min.css" rel="stylesheet" id="colors">-->
-        <!--<link href="assets/css/themes/light-blue.min.css" rel="stylesheet" id="colors">-->
-        <link href="assets/css/themes/red.min.css" rel="stylesheet" id="colors">
-        <!--<link href="assets/css/themes/green.min.css" rel="stylesheet" id="colors">-->
-        <!--<link href="assets/css/themes/yellow.min.css" rel="stylesheet" id="colors">-->
-
-        <!--[if lt IE 9]>
-          <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
-          <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-        <link href="custom/css/style_mb.css" rel="stylesheet">
-        <link href="custom/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
+        <?php echo $app->title(); ?>
+        <?php echo $app->getMetaTags(); ?>
+        <?php echo $app->getStyleScheet(); ?>  
     </head>
 
     <body>
-
         <!-- Main Navigation -->
         <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container">
@@ -165,19 +123,29 @@ $app = new Application();
                     </li>
                 </ul>
 
+
                 <!-- Tab panes -->
                 <div class="space-lg"></div>
                 <div class="tab-content lg-tab-content">
                     <div class="tab-pane active in" id="responsive">
                         <div class="row">
                             <div class="col-md-6 fadeIn wow">
+                                <?php $app->getMetaTags(); ?>
                                 <!--                                <h2 class="big-title text-primary">Fully responsive</h2>-->
-                                <p class="text-block">We design the websites fully responsive for each devices. It is means that you can comfortable browse our websites on your smartphone, tablet and other devices.
+                                <p class="text-block">Wir sind ein Lack- und Aufbereitungsbetrieb!<br/>
+
+                                    Schon an unserem letzten Standort in Landau als „L&L United GmbH“ konnten wir unsere Kunden mit unserer Qualität für professionelle Autoaufbereitung, Pflege und Smart-Repair für uns begeistern und zufrieden stellen.<br/>
+
+                                    Durch den stetig wachsenden Kundenkreis und dem daraus entstehenden Platzmangel, dürfen wir mit Freude verkünden, dass wir seit dem 01.04.2014 in der Großen Ahlmühle 11, 76865 Rohrbach zu finden sind. Nicht nur unser Standort hat sich geändert sondern auch unsere Firmierung, ab sofort sind wir die Car-Doc GmbH.<br/>
+
+                                    Jetzt, mit unserem noch größeren und schöneren Standort in Rohrbach, sowie durch die Anschaffung einer großen Lackierkabine sind wir jetzt in der Lage LKW und Reisebusse zu lackieren.<br/>
+
+                                    Seit 8 Jahren schätzt uns Mercedes-Benz als zuverlässiger Partner in der Aufbereitung und mit unseren zahlreichen Waschanlagen und Aufbereitungsplätze in den Mercedes Niederlassungen Mannheim, Heidelberg, Landau und Wörth, sind wir für jede Herausforderung bereit!<br/>
+
+                                    Für unsere Arbeiten im Bereich Lack, Aufbereitung und Pflege verwenden wir nur Markenprodukte in höchster Qualität, denn nichts ist uns lieber wie ein zufriedener Kunde.<br/>
+
+                                    Überzeugen Sie sich doch einmal selbst von unseren Leistungen zu fairen Preisen!<br/>
                                 </p>
-                                <p class="text-block">You can try it now on your laptop, just resize your browser window and every element will start to adapt to new resolution.</p>
-                                <p class="text-block">We design the websites fully responsive for each devices. It is means that you can comfortable browse our websites on your smartphone, tablet and other devices.
-                                </p>
-                                <p class="text-block">You can try it now on your laptop, just resize your browser window and every element will start to adapt to new resolution.</p>
                             </div>
                             <div class="col-md-6 fadeIn wow">
                                 <img class="img-mw450" src="custom/image/about_us/logo1.png" alt="Influence - Responsive Design">
@@ -205,8 +173,8 @@ $app = new Application();
                                 <div style="float: left ">
                                     Möchten Sie einen Termin vereinbaren oder haben Sie Frage zu uns.
                                     <br />Rufen Sie Rund um die Uhr unseren Kundenservice an oder mailen Sie uns 
-                                    
-                                    
+
+
 
                                 </div>
                                 <div class="space-sm"></div>
@@ -244,18 +212,18 @@ $app = new Application();
                                 <div> (0172) 620 620 2 </div>
 
                                 <div class="space-sm"></div>
-                                
+
                                 <div style="width: 30px; float: left ">
                                     <span class="text-primary"> <i class="fa fa-envelope-square"></i></span> 
                                 </div>
                                 <div> p.wanzeck@car-doc.info </div>
 
-                      <div class="space-sm-60"></div>  
-                                
+                                <div class="space-sm-60"></div>  
+
                                 <div style="float: left ">
                                     <span class="text-primary">Wir sind für Sie jeden Tag 24 Stunden erreichtbar!</span> 
                                 </div>
-                                 
+
                             </div>
                             <div class="col-md-4">
                                 <img class="img-mw350" src="custom/image/about_us/open-door.jpeg" alt="Influence theme is ready for use">
