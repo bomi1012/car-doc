@@ -1,4 +1,4 @@
-.bg-5-custom-mb {
+.bg-header-mb {
     background: url("../image/big/truck-3.jpeg");
 }
 
@@ -10,10 +10,13 @@
     background: url("../image/dinstleistung/lackierung.jpg");
 }
 
+.navbar-brand-mb {
+    font-size: 1.9em;
+}
 .navbar-brand-left-mb {
     float: left;
-    font-weight: 400;
-    font-size: 15px;
+    font-weight: 200;
+    font-size: 1.2em;
     letter-spacing: 1px;
     line-height: 20px;
     color: #ddd;
@@ -21,7 +24,8 @@
 }
 
 
-.navbar-brand-contact-mb {
+
+.navbar-contact-mb {
     float: right;
     font-weight: 400;
     font-size: 13px;
@@ -66,4 +70,8 @@
 
 .left-padding-baner {
     float: left;
+}
+
+.full{
+    width: 100%;
 }
