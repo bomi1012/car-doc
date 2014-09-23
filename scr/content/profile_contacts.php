@@ -6,6 +6,8 @@
 ?>
 
 <div class="col-md-8 about_uns_time">
+    
+    
     <h2 class="big-title text-primary">Kundenservice</h2>    
     <div style="width: 30px; float: left ">
         <span class="text-primary"> <i class="fa fa-map-marker"></i></span> 
@@ -25,7 +27,7 @@
         <span class="text-primary"> <i class="fa fa-envelope-square"></i></span> 
     </div>
     <div> p.wanzeck@car-doc.info </div>
-
+      
     <div class="space-sm-60"></div>  
 
     <div style="float: left ">

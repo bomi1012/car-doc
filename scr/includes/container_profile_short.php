@@ -23,7 +23,7 @@
         </span>
         <span class="counter">24/7</span>
     </h3>
-    <h4>Die ganze Woche rund um Uhr stehen wir zu Verfügung für Sie</h4>
+    <h4>Die ganze Woche rund um Uhr stehen wir für Sie zu Verfügung</h4>
 </div>
 <div class="col-md-4 text-position-center">
     <h3 class="short_counter">

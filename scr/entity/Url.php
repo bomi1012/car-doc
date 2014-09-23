@@ -38,6 +38,9 @@ class Url {
         
         $array = explode("/", $this->_path);
         $this->_currentPage = end($array);
+        if ($this->_currentPage == NULL) {
+            $this->_currentPage = IConstants::PAGE_INDEX;
+        }
     }
 }
 

@@ -16,6 +16,7 @@ class Application {
             case IConstants::PAGE_INDEX:
                 $this->_bean = new IndexBean();
                 break;
+            
         }
     }
 
