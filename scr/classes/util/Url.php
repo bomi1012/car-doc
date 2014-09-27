@@ -25,6 +25,10 @@ class Url {
         return $this->_query;
     }
     
+    /**
+     * @example <index.php>
+     * @return string current page
+     */
     public function getCurrentPage() {
         return $this->_currentPage;
     }

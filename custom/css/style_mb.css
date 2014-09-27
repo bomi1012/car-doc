@@ -72,6 +72,10 @@
     float: left;
 }
 
+.right_mb {
+    float: right;
+}
+
 .full{
     width: 100%;
 }
