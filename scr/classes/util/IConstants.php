@@ -2,6 +2,7 @@
 
 interface IConstants {
     const PAGE_INDEX = "index.php";
+    const BASE_INI_PATH = "scr/ini/application.ini";
     
     const APPLICATION_NAME = "Car-Doc";
     const APPLICATION_NAME_SLOGAN = "Lackservice PKW, LKW & Busse";

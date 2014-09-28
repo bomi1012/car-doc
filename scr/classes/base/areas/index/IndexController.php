@@ -13,8 +13,8 @@ class IndexController implements IBaseController{
     }
 
     public function buildPage() {
-        echo "<span class='breakPoint' id='profile'></span>";
-        echo Tabsnavigation::show();
+//        echo "<span class='breakPoint' id='profile'></span>";
+        Tabsnavigation::show();
 
         echo "<span class='breakPoint'></span>";     
         echo file_get_contents('scr/php/partials/bean_counter.php', true);
