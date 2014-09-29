@@ -10,7 +10,7 @@
             <span class="navbar-contact-mb">
                 <span class="text-primary">
                     <i class="fa fa-envelope-o "></i>
-                </span>info@car-doc.info 
+                </span>info@car-doc.info
             </span>
         </div>
         <div class="navbar-header">

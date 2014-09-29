@@ -1,5 +1,5 @@
 .bg-header-mb {
-    background: url("../image/big/truck-3.jpeg");
+    background: url("../image/big/car-doc-header-image.jpeg");
 }
 
 .bg-2-custom-mb {
@@ -83,3 +83,12 @@
 div .cursor_pointer_mb {
     cursor: pointer; 
 } 
+
+@media (max-width: 768px){
+    .navbar-brand-left-mb {
+        display: none; 
+    }
+    .navbar-brand-mb {
+        display: none;
+    }
+}
