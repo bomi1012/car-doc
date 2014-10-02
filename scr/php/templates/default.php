@@ -7,7 +7,8 @@
     $base = new Application();
     $bean = $base->getBean();
     ?>
-    <head>        
+    <head>       
+        <link rel="shortcut icon" href="custom/image/favicon.ico" /> 
         <?php include_once 'scr/php/partials/head.php'; ?>
     </head>
     <body>  

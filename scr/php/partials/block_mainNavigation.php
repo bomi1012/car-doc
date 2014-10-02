@@ -2,15 +2,15 @@
     <div class="container">     
         <div class="navbar-contact">
             <span class="navbar-contact-mb"><span class="text-primary"><i class="fa fa-map-marker "></i></span> 
-                Große Ahlmuhle 11, Rohrbach </span>
+                <?php echo IConstants::CONTACT_ADDRESS; ?> </span>
             <span class="navbar-contact-mb">
                 <span class="text-primary"><i class="fa fa-phone "></i>
-                </span> 06349 9964901 
+                </span> <?php echo IConstants::CONTACT_TELEPHON; ?>
             </span>
             <span class="navbar-contact-mb">
                 <span class="text-primary">
                     <i class="fa fa-envelope-o "></i>
-                </span>info@car-doc.info
+                </span><?php echo IConstants::CONTACT_EMAIL; ?>
             </span>
         </div>
         <div class="navbar-header">
