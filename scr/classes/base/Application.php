@@ -9,13 +9,11 @@
 class Application {
 
     private $_url;
-
     public function getUrl() {
         return $this->_url;
     }
 
     private $_bean;
-
     public function getBean() {
         return $this->_bean;
     }
@@ -36,14 +34,20 @@ class Application {
     }
 
     public function setBean($currentPage) {
-        $a = new DBConnection();
         switch ($currentPage) {
             case IConstants::PAGE_INDEX:
-                $this->_bean = new IndexController();
+                $this->_bean = new IndexController($this);
                 break;
         }
     }
-
+    
+    public function pageSwitcher() {
+        switch ($this->_url->getCurrentPage()) {
+            case IConstants::PAGE_INDEX:
+                $this->_bean->buildPage();
+                break;
+        }
+    }
 }
 
 ?>

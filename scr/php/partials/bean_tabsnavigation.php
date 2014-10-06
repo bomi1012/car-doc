@@ -1,7 +1,10 @@
+<?php
+//$this->getTitle();
+?>
 <div class="section p-no-top">
     <div class="container">
-        <div>
-            <ul class="lg-tabs">
+        <div id="select_menu">
+            <ul class="lg-tabs lg-tabs-3-mb">
                 <li class="active">
                     <a href="#profile_home" data-toggle="tab" data-wow-delay="0.1s">
                         <i class="fa fa-home"></i>
@@ -20,12 +23,12 @@
                         <h3>Kontakte</h3>
                     </a>
                 </li>
-                <li class="">
+<!--                <li class="">
                     <a href="#profile_skills" data-toggle="tab" data-wow-delay="0.4s">
                         <i class="fa fa-lightbulb-o"></i>
                         <h3>Unsere Kompetenzen</h3>
                     </a>
-                </li>
+                </li>-->
             </ul>
         </div>
 
@@ -44,7 +47,7 @@
 
                     </div>
                     <div class="col-md-5 fadeIn wow animated" style="visibility: visible;">
-                        <img class="img-mw450" src="custom/image/about_us/logo1.png" alt="Influence - Responsive Design">
+                        <img class="img-mw450" src="custom/image/about_us/car-doc-logo.png" alt="Car-Doc | Logo | Lackservice">
                     </div>
                 </div>
             </div>
@@ -82,7 +85,7 @@
                         <div> <?php echo IConstants::CONTACT_EMAIL; ?> </div>
                     </div>
                     <div class="col-md-4">
-                        <img class="img-mw350" src="custom/image/about_us/open-door.jpeg" alt="Influence theme is ready for use">
+                        <img class="img-mw350" src="custom/image/about_us/car-doc-hause.jpeg" alt="Car-Doc | Hause | Lackservice">
                     </div>
                 </div>
             </div>
@@ -120,7 +123,7 @@
 
                     </div>
                     <div class="col-md-4">
-                        <img class="img-mw350" src="custom/image/about_us/open-door.jpeg" alt="Influence theme is ready for use">
+                        <img class="img-mw350" src="custom/image/about_us/car-doc-office.jpeg" alt="Car-Doc | Büro | Lackservice">
                     </div>
 
                 </div>

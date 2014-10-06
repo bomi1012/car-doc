@@ -6,6 +6,9 @@
 <meta name="description" content="Für unsere Arbeiten im Bereich Lack, Aufbereitung und Pflege verwenden wir nur Markenprodukte in höchster Qualität, denn nichts ist uns lieber wie ein zufriedener Kunde">
 <meta name="name" content="Car-Doc GMBH">
 
+<!-- favicon -->
+<link rel="shortcut icon" href="custom/image/favicon.ico" /> 
+
 <!-- styles -->
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 

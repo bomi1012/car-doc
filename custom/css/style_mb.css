@@ -92,3 +92,7 @@ div .cursor_pointer_mb {
         display: none;
     }
 }
+
+.lg-tabs-3-mb li {
+    width: 33%;
+}

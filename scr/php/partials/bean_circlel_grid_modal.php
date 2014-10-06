@@ -8,7 +8,8 @@
         <div class="row team-grid">
             <!-- 1 cursor_pointer_mb -->
             <div class="col-lg-4 col-md-4 col-sm-6 ">
-                <div class="profile-circle openIn wow md-trigger" data-wow-duration="0.75s" data-modal="modal-1">
+<!--                <div class="profile-circle openIn wow md-trigger" data-wow-duration="0.75s" data-modal="modal-1">-->
+                <div class="profile-circle openIn wow" data-wow-duration="0.75s">
                     <div class="hover-content ">
                         <div class="profile leistung-1 lg-size"></div>
                         <div class="content-circle content-center"></div>
@@ -22,7 +23,7 @@
             </div>
             <!-- 2 cursor_pointer_mb -->
             <div class="col-lg-4 col-md-4 col-sm-6 ">
-                <div class="profile-circle openIn wow md-trigger" data-wow-duration="0.80s" data-modal="modal-1">
+                <div class="profile-circle openIn wow" data-wow-duration="0.80s">
                     <div class="hover-content ">
                         <div class="profile leistung-1 lg-size"></div>
                         <div class="content-circle content-center"></div>
@@ -36,7 +37,7 @@
             </div>
             <!-- 3 cursor_pointer_mb -->
             <div class="col-lg-4 col-md-4 col-sm-6 ">
-                <div class="profile-circle openIn wow md-trigger" data-wow-duration="0.90s" data-modal="modal-1">
+                <div class="profile-circle openIn wow" data-wow-duration="0.90s">
                     <div class="hover-content ">
                         <div class="profile leistung-1 lg-size"></div>
                         <div class="content-circle content-center"></div>
@@ -63,7 +64,7 @@
                 </div>
             </div>-->
             <!-- Modals -->
-<!--            <div class="md-modal" id="modal-1">
+<!--          <div class="md-modal" id="modal-1">
                 <div class="md-content">
                     <div class="icon-close md-close"></div>
                     <div class="container">
@@ -72,9 +73,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> 
 
-            <div class="md-modal" id="modal-2">
+            <div class="md-modal" id="modal-3">
                 <div class="md-content">
                     <div class="icon-close md-close"></div>
                     <div class="container">
@@ -83,7 +84,7 @@
                         </div>
                     </div>
                 </div>
-            </div>-->
+            </div> --> 
         </div>
     </div>
 </div>

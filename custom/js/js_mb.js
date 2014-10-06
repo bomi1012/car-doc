@@ -3,8 +3,7 @@ $('#map').initMap({
     // Set the center of the map to Paris
     center: paris_latlng,
     markers : {
-        paris_marker: { position: paris_latlng },
-        london : { position: [ 51.526261, -0.119476 ] }
+        paris_marker: { position: paris_latlng }
     },
     options: {        
         zoom: 15,
