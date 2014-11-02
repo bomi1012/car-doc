@@ -13,6 +13,8 @@ interface IConstants {
     const CONTACT_EMAIL = "info@car-doc.info";
     const CONTACT_TELEPHON = "06349 9964901";
     const CONTACT_ADDRESS = "Große Ahlmuhle 11, Rohrbach";
+    
+    const PHP = ".php";
 }
 
 ?>

@@ -1,38 +1,13 @@
 <?php
-//$this->getTitle();
+/**
+ * $this-> refs to TabsNavigationPart
+ */
 ?>
 <div class="section p-no-top">
-    <div class="container">
-        <div id="select_menu">
-            <ul class="lg-tabs lg-tabs-3-mb">
-                <li class="active">
-                    <a href="#profile_home" data-toggle="tab" data-wow-delay="0.1s">
-                        <i class="fa fa-home"></i>
-                        <h3>Über uns</h3>
-                    </a>
-                </li>
-                <li class="">
-                    <a href="#profile_hours" data-toggle="tab" data-wow-delay="0.2s">
-                        <i class="fa fa-calendar"></i>
-                        <h3>Öffnungszeiten</h3>
-                    </a>
-                </li>
-                <li class="">
-                    <a href="#profile_contacts" data-toggle="tab" data-wow-delay="0.3s">
-                        <i class="fa fa-book"></i>
-                        <h3>Kontakte</h3>
-                    </a>
-                </li>
-<!--                <li class="">
-                    <a href="#profile_skills" data-toggle="tab" data-wow-delay="0.4s">
-                        <i class="fa fa-lightbulb-o"></i>
-                        <h3>Unsere Kompetenzen</h3>
-                    </a>
-                </li>-->
-            </ul>
-        </div>
-
+    <div class="container">        
+        <?php echo $this->getTabsMenu(); ?>
         <div class="space-lg"></div>
+
         <div class="tab-content lg-tab-content">
             <div class="tab-pane active in" id="profile_home">
                 <div class="row">
@@ -44,9 +19,8 @@
                         <p>Seit 8 Jahren schätzt uns Mercedes-Benz als zuverlässiger Partner in der Aufbereitung und mit unseren zahlreichen Waschanlagen und Aufbereitungsplätze in den Mercedes Niederlassungen Mannheim, Heidelberg, Landau und Wörth, sind wir für jede Herausforderung bereit!</p>
                         <p>Für unsere Arbeiten im Bereich Lack, Aufbereitung und Pflege verwenden wir nur Markenprodukte in höchster Qualität, denn nichts ist uns lieber wie ein zufriedener Kunde.</p>
                         <p>Überzeugen Sie sich doch einmal selbst von unseren Leistungen zu fairen Preisen!"</p>
-
                     </div>
-                    <div class="col-md-5 fadeIn wow animated" style="visibility: visible;">
+                    <div class="col-md-5">
                         <img class="img-mw450" src="custom/image/about_us/car-doc-logo.png" alt="Car-Doc | Logo | Lackservice">
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 <?php
-interface IPart {
+interface IPart {  
     function getContent();
     function setContent();
 }

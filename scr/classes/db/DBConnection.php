@@ -9,8 +9,8 @@ class DBConnection {
     
     public function __construct() { }
     
-    public static function open() {
-        $this->config('scr/classes/db/db_config.ini');        
+    public function open() {
+        $this->config('../scr/classes/db/db_config.ini');        
         try {
             return new PDO("mysql:dbname=$this->_dbName;host=$this->_host", $this->_user, $this->_password);
         } catch (PDOException $e) {

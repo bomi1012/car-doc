@@ -7,8 +7,11 @@
     ?>
     <head>       
         <?php include_once 'scr/php/partials/head.php'; ?>
+        
+        <script src="ckeditor/ckeditor.js"></script>
     </head>
     <body>  
+
         
         <!-- Section: Main Navigation + Kontakt | Position: top -->    
         <?php include_once 'scr/php/partials/block_mainNavigation.php'; ?>
@@ -19,8 +22,8 @@
 
         <?php //include_once 'scr/php/partials/bean_tabsnavigation.php'; 
         $base->pageSwitcher();
-        ?> 
-
+        ?>   
+        
         <span class='breakPoint'></span>     
         <?php include_once 'scr/php/partials/bean_counter.php'; ?> 
 
