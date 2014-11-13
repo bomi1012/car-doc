@@ -17,7 +17,7 @@
                     <h3>Fahrzeuglackierung</h3>
                     <hr>
                     <p>
-                        Wir reparieren alles, z.B. Reparatur an Kunstoffteilen und Lackierung von Fegeln
+                        Wir lackieren sämtliche Materialien und Fahrzeugen
                     </p>
                 </div>
             </div>
@@ -25,13 +25,13 @@
             <div class="col-lg-4 col-md-4 col-sm-6 ">
                 <div class="profile-circle openIn wow" data-wow-duration="0.80s">
                     <div class="hover-content ">
-                        <div class="profile leistung-1 lg-size"></div>
+                        <div class="profile folie-1 lg-size"></div>
                         <div class="content-circle content-center"></div>
                     </div>
                     <h3>Autoschprühfolie</h3>
                     <hr>
                     <p>
-                        Wir reparieren alles, z.B. Reparatur an Kunstoffteilen und Lackierung von Fegeln
+                        Wir bekleben Motorräder, PKW, LKW und Omnibusse
                     </p>
                 </div>
             </div>
@@ -39,13 +39,13 @@
             <div class="col-lg-4 col-md-4 col-sm-6 ">
                 <div class="profile-circle openIn wow" data-wow-duration="0.90s">
                     <div class="hover-content ">
-                        <div class="profile leistung-1 lg-size"></div>
+                        <div class="profile karoserie-1 lg-size"></div>
                         <div class="content-circle content-center"></div>
                     </div>
                     <h3>Karosserieinstandsetzung</h3>
                     <hr>
                     <p>
-                        Wir reparieren alles, z.B. Reparatur an Kunstoffteilen und Lackierung von Fegeln
+                        Wir reparieren alle arten von Karosserien.
                     </p>
                 </div>
             </div>

@@ -12,7 +12,6 @@
     </head>
     <body>  
 
-        
         <!-- Section: Main Navigation + Kontakt | Position: top -->    
         <?php include_once 'scr/php/partials/block_mainNavigation.php'; ?>
 
@@ -20,9 +19,8 @@
         <span class="breakPoint" id="sTop"></span>
         <?php include_once 'scr/php/partials/block_header.php'; ?> 
 
-        <?php //include_once 'scr/php/partials/bean_tabsnavigation.php'; 
-        $base->pageSwitcher();
-        ?>   
+        <span class="breakPoint" id="profile"></span>
+        <?php include_once 'scr/php/partials/tabsnavigation.php';  ?>   
         
         <span class='breakPoint'></span>     
         <?php include_once 'scr/php/partials/bean_counter.php'; ?> 

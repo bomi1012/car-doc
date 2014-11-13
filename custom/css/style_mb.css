@@ -7,7 +7,14 @@
 }
 
 .leistung-1 {
-    background: url("../image/dinstleistung/lackierung.jpg");
+    background: url("../image/dinstleistung/lackierung_.jpg");
+}
+
+.folie-1 {
+    background: url("../image/dinstleistung/folie.jpg");
+}
+.karoserie-1 {
+    background: url("../image/dinstleistung/karoserie.jpg");
 }
 
 .navbar-brand-mb {
@@ -90,5 +97,13 @@ div .cursor_pointer_mb {
     }
     .navbar-brand-mb {
         display: none;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .lg-tabs li {
+        width: 33%;
+        padding: 25px 15px;
     }
 }

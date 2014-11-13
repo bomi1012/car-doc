@@ -1,24 +1,54 @@
-<?php
-/**
- * $this-> refs to TabsNavigationPart
- */
-?>
 <div class="section p-no-top">
     <div class="container">        
-        <?php echo $this->getTabsMenu(); ?>
+        
+        <div id="select_menu">
+            <ul class="lg-tabs">
+                <li class="active">
+                    <a href="#profile_home" data-toggle="tab" data-wow-delay="0.1s">
+                        <i class="fa fa-home"></i>
+                        <h3>Über uns</h3>
+                    </a> 
+                </li>
+                <li class="">
+                    <a href="#profile_hours" data-toggle="tab" data-wow-delay="0.2s">
+                        <i class="fa fa-calendar"></i>
+                        <h3>Öffnungszeiten</h3>
+                    </a> 
+                </li>
+                <li class="">
+                    <a href="#profile_contacts" data-toggle="tab" data-wow-delay="0.3s">
+                        <i class="fa fa-book"></i>
+                        <h3>Kontakte</h3>
+                    </a> 
+                </li>
+<!--                <li class="">
+                    <a href="#profile_skills" data-toggle="tab" data-wow-delay="0.4s">
+                        <i class="fa fa-lightbulb-o"></i>
+                        <h3>Unsere Kompetenzen</h3>
+                    </a> 
+                </li>-->
+            </ul>
+        </div>
+        
         <div class="space-lg"></div>
 
         <div class="tab-content lg-tab-content">
             <div class="tab-pane active in" id="profile_home">
                 <div class="row">
                     <div class="col-md-7 fadeIn font_mb">
-                        <p>Wir sind ein Lack- und Aufbereitungsbetrieb!</p>
-                        <p>Schon an unserem letzten Standort in Landau als „L&L United GmbH“ konnten wir unsere Kunden mit unserer Qualität für professionelle Autoaufbereitung, Pflege und Smart-Repair für uns begeistern und zufrieden stellen.</p>
-                        <p>Durch den stetig wachsenden Kundenkreis und dem daraus entstehenden Platzmangel, dürfen wir mit Freude verkünden, dass wir seit dem 01.04.2014 in der Großen Ahlmühle 11, 76865 Rohrbach zu finden sind. Nicht nur unser Standort hat sich geändert sondern auch unsere Firmierung, ab sofort sind wir die Car-Doc GmbH.</p>
-                        <p>Jetzt, mit unserem noch größeren und schöneren Standort in Rohrbach, sowie durch die Anschaffung einer großen Lackierkabine sind wir jetzt in der Lage LKW und Reisebusse zu lackieren.</p>
-                        <p>Seit 8 Jahren schätzt uns Mercedes-Benz als zuverlässiger Partner in der Aufbereitung und mit unseren zahlreichen Waschanlagen und Aufbereitungsplätze in den Mercedes Niederlassungen Mannheim, Heidelberg, Landau und Wörth, sind wir für jede Herausforderung bereit!</p>
-                        <p>Für unsere Arbeiten im Bereich Lack, Aufbereitung und Pflege verwenden wir nur Markenprodukte in höchster Qualität, denn nichts ist uns lieber wie ein zufriedener Kunde.</p>
-                        <p>Überzeugen Sie sich doch einmal selbst von unseren Leistungen zu fairen Preisen!"</p>
+                        <p>Mit vieljährigen Erfahrung bietet <span class="text-primary">Car-Doc GmbH</span> 
+                            unseren Kunden einen umfassenden und professionellen Service in den Bereichen
+                         Unfallinstandsetzung, Lackierung und Autoschprühfolie.</p>
+                        
+                        <p>Neben PKW aller Art haben wir auch die Möglichkeit LKWs, Omnibusse und 
+                            sonstige Fahrzeuge zu lackiren. Hierfür verfügen wir über eine professionelle Lackierkabine.
+                            Unsere Dienstleistungen werden rund um die Uhr an sieben Tagen der Woche von
+                            engagierten Mitarbeitern durchgeführt. </p>
+
+                        <p>Informieren Sie sich auf den folgenden Seiten über unsere Dienstleistungen 
+                            in den Bereichen Fahrzeuglackierung, Autoschprühfolie und Karosserieinstandsetzung.</p>
+                            
+                            
                     </div>
                     <div class="col-md-5">
                         <img class="img-mw450" src="custom/image/about_us/car-doc-logo.png" alt="Car-Doc | Logo | Lackservice">

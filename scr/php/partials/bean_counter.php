@@ -25,9 +25,9 @@
                 <span class="text-primary">
                     <i class="fa fa-cubes"></i>                                
                 </span>
-                <span class="counter">7000</span>
+                <span class="counter">1500</span>
             </h3>
-            <h4>Quadratmeter groß ist unsere Halle</h4>
+            <h4>Quadratmeter groß ist unsere Halle und 4500 qm gesammte Oberfläche</h4>
         </div>     
     </div>
 </div>
