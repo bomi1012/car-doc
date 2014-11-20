@@ -17,7 +17,7 @@
                     <h3>Fahrzeuglackierung</h3>
                     <hr>
                     <p>
-                        Wir lackieren sämtliche Materialien und Fahrzeugen
+                        Wir lackieren sämtliche Materialien und Fahrzeuge
                     </p>
                 </div>
             </div>
@@ -28,10 +28,10 @@
                         <div class="profile folie-1 lg-size"></div>
                         <div class="content-circle content-center"></div>
                     </div>
-                    <h3>Autoschprühfolie</h3>
+                    <h3>Autosprühfolie</h3>
                     <hr>
                     <p>
-                        Wir bekleben Motorräder, PKW, LKW und Omnibusse
+                        Wir bearbeiten Motorräder, PKWs, LKWs und Omnibusse
                     </p>
                 </div>
             </div>

@@ -18,7 +18,7 @@
                 </span>
                 <span class="counter">24/7</span>
             </h3>
-            <h4>Die ganze Woche rund um Uhr stehen wir für Sie zu Verfügung</h4>
+            <h4>Die ganze Woche rund um die Uhr stehen wir Ihnen gerne zur Verfügung</h4>
         </div>
         <div class="col-md-4 text-position-center">
             <h3 class="short_counter">
@@ -27,7 +27,7 @@
                 </span>
                 <span class="counter">1500</span>
             </h3>
-            <h4>Quadratmeter groß ist unsere Halle und 4500 qm gesammte Oberfläche</h4>
+            <h4>Quadratmeter groß ist unsere Halle auf über 4500 qm Betriebsfläche</h4>
         </div>     
     </div>
 </div>

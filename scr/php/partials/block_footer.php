@@ -5,7 +5,7 @@
                 2014 © Car-Doc GmbH 
             </div>
             <div class="col-md-7 col-sm-12">
-                <div class="right_mb md-trigger cursor_pointer_mb" data-modal="modal-1"> impressum</div>
+                <div class="right_mb md-trigger cursor_pointer_mb" data-modal="modal-1"> Impressum</div>
 
             </div>
 
@@ -18,14 +18,14 @@
                             <h2>Car-Doc Gesellschaft mit beschränkter Haftung</h2>                          
                             <p>Pappelweg 8 <br />77767 Appenweier</p>        
                             <p>Zweigniederlassung:</p>
-                            <p>Car-Doc GmbH<br/>Große Ahlmühle ll<br/>76865 Rohrbach<p>
+                            <p>Car-Doc GmbH<br/>Große Ahlmühle 11<br/>76865 Rohrbach<p>
                             <p>Kontakt:</p>
                             <p>Telefon: 06349 9964901<br/>
                                 Fax: 06349 9964902<br/>
                                 E-Mail: info@car-doc.info<br/>
                                 Web: www.car-doc.info</p>
                                 
-                            <p>Geschäñsﬁihrer: Eugen Luppow, Lorenz Robert</p>
+                            <p>Geschäftsführer: Eugen Luppow, Robert Lorenz</p>
                             <p>Registergericht: Amtsgericht Freiburg i. Br.<br/>
                                 Registemummer: HRB 706556<br/>
                                 Umsatzsteuer-Identiﬁkationsnmnmer: DE276l57141</p>

@@ -56,11 +56,11 @@ if (isset($_POST["submit_mail"])) {
                 <ul class="list-unstyled info-bar">
                     <li>
                         <h3 class="text-primary">Zusätzliche Informationen</h3>
-                        <p>Falls Sie noch weitere Fragen haben oder Sie möchten einen Termin festlegen, stehen wir Ihnen gerne durch dieses Formular zur Verfügung! </p>
+                        <p>Falls Sie noch weitere Fragen haben oder einen Termin festlegen möchten, stehen wir Ihnen gerne durch dieses Formular zur Verfügung! </p>
                     </li>
                     <li>
                         <h3 class="text-primary">Adresse</h3>
-                        <p>Große Ahlmühle 11, 76865 Rohrbach</p>
+                        <p><?php echo IConstants::CONTACT_ADDRESS ?></p>
                     </li>
                     <li>
                         <h3 class="text-primary">Öffnungszeiten</h3>

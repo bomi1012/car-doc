@@ -1,13 +1,13 @@
 <?php
 $all = "mix";
-$a = "Autoschprühfolie";
+$a = "Autosprühfolie";
 $f = "Fahrzeuglackierung";
 $k = "Karosserieinstandsetzung";
 ?>
 <span class="breakPoint" id="services_gallery"></span>
 <div class="bg-grey section">
     <div class="container">
-        <h2 class="lg-title lg-title-border">Dienstleistungen in Bilder</h2>
+        <h2 class="lg-title lg-title-border">Dienstleistungen in Bildern</h2>
 
         <ul class="filter-tabs">
             <li class="filter active" data-filter="<?php echo $all; ?>"><span>Alle</span>
@@ -98,7 +98,7 @@ $k = "Karosserieinstandsetzung";
                        title="<?php echo $f; ?>" 
                        class="fancybox" 
                        rel="group">
-                        <img src="custom/image/bilder/IMG_5875.jpg" class="img-responsive" alt="<?php echo $f; ?>">
+                        <img src="custom/image/bilder/IMG_5875.JPG" class="img-responsive" alt="<?php echo $f; ?>">
                     </a>
                 </div>
             </li>
