@@ -1,9 +1,9 @@
-var location_latlng =  [49.1349861 , 8.1425575];
+var location =  [49.13354 , 8.14299];
 $('#map').initMap({ 
     // Set the center of the map to Paris
-    center: location_latlng,
+    center: location,
     markers : {
-        paris_marker: { position: location_latlng }
+        paris_marker: { position: location }
     },
     options: {        
         zoom: 15,
