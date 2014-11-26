@@ -3,7 +3,11 @@
         <div class="navbar-contact">
             <span class="navbar-contact-mb"><span class="text-primary"><i class="fa fa-map-marker "></i></span> 
                 <?php echo IConstants::CONTACT_ADDRESS; ?> </span>
-            <span class="navbar-contact-mb">
+            <span id="fax" class="navbar-contact-mb">
+                <span class="text-primary"><i class="fa fa-fax "></i>
+                </span> <?php echo IConstants::CONTACT_FAX; ?>
+            </span>
+            <span class="navbar-contact-mb" >
                 <span class="text-primary"><i class="fa fa-phone "></i>
                 </span> <?php echo IConstants::CONTACT_TELEPHON; ?>
             </span>
@@ -44,8 +48,8 @@
                     </li>
                 </ul>
             </div>
-            
-            <div class="col-md-4_fest contact">
+
+            <div class="col-md-5_fest contact">
                 <span class="navbar-contact-mb navbar-contact-mb-2">
                     <span class="text-primary">
                         <i class="fa fa-map-marker "></i>
@@ -53,9 +57,14 @@
                     <?php echo IConstants::CONTACT_ADDRESS; ?> 
                 </span>
                 <span class="navbar-contact-mb navbar-contact-mb-2">
+                    <span class="text-primary"><i class="fa fa-fax "></i>
+                    </span> <?php echo IConstants::CONTACT_FAX; ?>
+                </span>
+                <span class="navbar-contact-mb navbar-contact-mb-2">
                     <span class="text-primary"><i class="fa fa-phone "></i>
                     </span> <?php echo IConstants::CONTACT_TELEPHON; ?>
                 </span>
+
                 <span class="navbar-contact-mb navbar-contact-mb-2">
                     <span class="text-primary">
                         <i class="fa fa-envelope-o "></i>

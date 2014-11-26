@@ -24,63 +24,59 @@
                                 Fax: 06349 9964902<br/>
                                 E-Mail: info@car-doc.info<br/>
                                 Web: www.car-doc.info</p>
-                                
+
                             <p>Geschäftsführer: Eugen Luppow, Robert Lorenz</p>
                             <p>Registergericht: Amtsgericht Freiburg i. Br.<br/>
                                 Registemummer: HRB 706556<br/>
                                 Umsatzsteuer-Identiﬁkationsnmnmer: DE276l57141</p>
-                                
+
                             <h3>1. Haftungsbeschränkung</h3>
                             <p>Die Inhalte dieser Website werden mit größtmöglicher Sorgfalt erstellt. Der Anbieter
-                                übemimmt jedoch keine Gewähr ﬁír die Richtigkeit, Vollständigkeit und Aktualität der
+                                übernimmt jedoch keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der
                                 bereitgestellten Inhalte. Die Nutzung der Inhalte der Website erfolgt auf eigene Gefahr des
                                 Nutzers. Namentlich gekennzeichnete Beiträge geben die Meinung des jeweiligen Autors und
                                 nicht immer die Meinung des Anbieters wieder. Mit der reinen Nutzung der Website des
                                 Anbieters kommt keinerlei Vertragsverhältnis zwischen dem Nutzer und dem Anbieter
                                 zustande. </p>
-                                
-                                <h3>2. Externe Links</h3>
-                            <p>Diese Website enthält Verknüpfungen zu Websites Dritter ("exteme Links"). Diese Websites
+
+                            <h3>2. Externe Links</h3>
+                            <p>Diese Website enthält Verknüpfungen zu Websites Dritter ("externe Links"). Diese Websites
                                 unterliegen der Haftung der jeweiligen Betreiber. Der Anbieter hat bei der erstmaligen
-                                Verknüpftmg der extemen Links die fremden Irıhalte darauﬂiin überprüﬁ, ob etwaige
+                                Verknüpfung der externen Links die fremden Inhalte daraufhin überprüft, ob etwaige
                                 Rechtsverstöße bestehen. Zu dem Zeitpunkt waren keine Rechtsverstöße ersichtlich. Der
-                                Anbieter hat keinerlei Einﬁuss auf die aktuelle und zukünftige Gestaltung und auf die Inhalte
-                                der verknüpﬁen Seiten. Das Setzen von externen Links bedeutet nicht, dass sich der Anbieter
+                                Anbieter hat keinerlei Einfluss auf die aktuelle und zukünftige Gestaltung und auf die Inhalte
+                                der verknüpften Seiten. Das Setzen von externen Links bedeutet nicht, dass sich der Anbieter
                                 die hinter dem Verweis oder Link liegenden Inhalte zu Eigen macht. Eine ständige Kontrolle
-                                der extemen Links ist ﬁir den Anbieter ohne konkrete Hinweise auf Rechtsverstöße nicht
-                                zumutbar. Bei Kenntnis von Rechtsverstößen werden jedoch derartige exteme Links
+                                der externen Links ist für den Anbieter ohne konkrete Hinweise auf Rechtsverstöße nicht
+                                zumutbar. Bei Kenntnis von Rechtsverstößen werden jedoch derartige externe Links
                                 unverzüglich gelöscht. </p>
 
-                                <h3>3. Urheber- und Leistungsschutzrechte</h3>
-                                <p>Die auf dieser Website veröffentlichten Inhalte unterliegen dem deutschen Urheber- und
+                            <h3>3. Urheber- und Leistungsschutzrechte</h3>
+                            <p>Die auf dieser Website veröffentlichten Inhalte unterliegen dem deutschen Urheber- und
                                 Leistungsschutzrecht. Jede vom deutschen Urheber- und Leistungsschutzrecht nicht
                                 zugelassene Verwertung bedarf der vorherigen schriftlichen Zustimmung des Anbieters oder
-                                jeweiligen Rechteinhabers. Dies gilt insbesondere ﬁír Vervielfältigung, Bearbeitung,
+                                jeweiligen Rechteinhabers. Dies gilt insbesondere für Vervielfältigung, Bearbeitung,
                                 Übersetzung, Einspeicherung, Verarbeitung bzw. Wiedergabe von Inhalten in Datenbanken
                                 oder anderen elektronischen Medien und Systemen. Inhalte und Rechte Dritter sind dabei als
                                 solche gekennzeichnet. Die unerlaubte Vervielfältigung oder Weitergabe einzelner Inhalte
                                 oder kompletter Seiten ist nicht gestattet und strafbar. Lediglich die Herstellung von Kopien
-                                und Downloads ﬁir den persönlichen, privaten und nicht kommerziellen Gebrauch ist erlaubt.
-                                Die Darstellung dieser Website in fremden Frames ist nur mit schriﬁlicher Erlaubnis zulässig. </p>
-                                
-                                <h3>4. Datenschutzerklärung</h3>
-                                <strong>Datenschutz</strong>
-                                <p>Nachfolgend möchten wir Sie über unsere Datenschutzerklärung informieren. Sie ﬁnden hier
+                                und Downloads für den persönlichen, privaten und nicht kommerziellen Gebrauch ist erlaubt.
+                                Die Darstellung dieser Website in fremden Frames ist nur mit schriftlicher Erlaubnis zulässig. </p>
+
+                            <h3>4. Datenschutzerklärung</h3>
+                            <strong>Datenschutz</strong>
+                            <p>Nachfolgend möchten wir Sie über unsere Datenschutzerklärung informieren. Sie finden hier
                                 Informationen über die Erhebung und Verwendung persönlicher Daten bei der Nutzung
-                                unserer Webseite. Wir beachten dabei das ﬁir Deutschland geltende Datenschutzrecht. Sie
+                                unserer Webseite. Wir beachten dabei das für Deutschland geltende Datenschutzrecht. Sie
                                 können diese Erklärung jederzeit auf unserer Webseite abrufen.</p>
-                                <p>Wir weisen ausdrücklich darauf hin, dass die Datenübertragung im Intemet (z.B. bei der
+                            <p>Wir weisen ausdrücklich darauf hin, dass die Datenübertragung im Internet (z.B. bei der
                                 Kommunikation per E-Mail) Sicherheitslücken aufweisen und nicht lückenlos vor dem
                                 Zugriff durch Dritte geschützt werden kann.</p>
-                                <p>Die Verwendung der Kontaktdaten unseres Impressums zur gewerblichen Werbung ist
-                                ausdrücklich nicht erwünscht, es sei derm wir hatten zuvor unsere schriftliche Einwilligung
+                            <p>Die Verwendung der Kontaktdaten unseres Impressums zur gewerblichen Werbung ist
+                                ausdrücklich nicht erwünscht, es sei denn wir hatten zuvor unsere schriftliche Einwilligung
                                 erteilt oder es besteht bereits eine Geschäftsbeziehung. Der Anbieter und alle auf dieser
-                                Website genannten Personen widersprechen hiennit jeder kommerziellen Verwendung und
+                                Website genannten Personen widersprechen hiermit jeder kommerziellen Verwendung und
                                 Weitergabe ihrer Daten.</p>
-
-
-
-
                         </div>
                     </div>
                 </div>

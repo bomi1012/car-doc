@@ -138,15 +138,24 @@ div .cursor_pointer_mb {
     .contact {
         margin-left: 50px;
     }
-
-    .col-md-4_fest {
+.col-md-4_fest {
         width: 33.33333333%;
+        float: left;
+    }
+    .col-md-5_fest {
+        width: 43.33333333%;
         float: left;
     }
 }
 
 @media (max-width: 450px) {
     .contact {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    #fax {
         display: none;
     }
 }

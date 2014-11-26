@@ -27,7 +27,7 @@
                 </span>
                 <span class="counter">1500</span>
             </h3>
-            <h4>Quadratmeter groß ist unsere Halle auf über 4500 qm Betriebsfläche</h4>
+            <h4>Quadratmeter große Halle auf über 4500 qm Betriebsfläche</h4>
         </div>     
     </div>
 </div>

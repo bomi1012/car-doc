@@ -30,7 +30,7 @@
             <div class="tab-pane active in" id="profile_home">
                 <div class="row">
                     <div class="col-md-7 fadeIn font_mb">
-                        <p>Mit vieljährigen Erfahrung bieten wir 
+                        <p>Mit vieljähriger Erfahrung bieten wir 
                             unseren Kunden einen umfassenden und professionellen Service in den Bereichen
                          Unfallinstandsetzung, Lackierung und Autosprühfolie.</p>
                         
