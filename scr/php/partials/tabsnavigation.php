@@ -55,7 +55,7 @@
                         <div style="width: 200px; float: left ">
                             <span class="text-primary"> Montag - Samstag:</span> 
                         </div>
-                        <div> 8:00 - 18:00 </div>
+                        <div> 8:00 - 20:00 </div>
 
                         <div class="space-sm"></div>
 
