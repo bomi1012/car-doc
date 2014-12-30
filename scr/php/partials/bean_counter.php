@@ -16,9 +16,9 @@
                 <span class="text-primary">
                     <i class="fa fa-clock-o"></i>                                
                 </span>
-                <span class="counter">24/7</span>
+                <span class="counter">12/6</span>
             </h3>
-            <h4>Die ganze Woche rund um die Uhr stehen wir Ihnen gerne zur Verfügung</h4>
+            <h4>6 Tagen in der Woche stehen wir Ihnen gerne zur Verfügung</h4>
         </div>
         <div class="col-md-4 text-position-center">
             <h3 class="short_counter">

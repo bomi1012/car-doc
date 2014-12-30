@@ -36,7 +36,7 @@
                         
                         <p>Neben PKWs aller Art haben wir auch die Möglichkeit LKWs, Omnibusse und 
                             sonstige Fahrzeuge zu lackieren. Hierfür verfügen wir über eine professionelle Lackierkabine.
-                            Unsere Dienstleistungen werden rund um die Uhr an sieben Tagen der Woche von
+                            Unsere Dienstleistungen werden an sechs Tagen der Woche von
                             engagierten Mitarbeitern durchgeführt. </p>
 
                         <p>Informieren Sie sich auf den folgenden Seiten über unsere Dienstleistungen.</p>
@@ -53,17 +53,11 @@
                 <div class="row">  
                     <div class="col-md-8 font_mb">
                         <div style="width: 200px; float: left ">
-                            <span class="text-primary"> Montag - Freitag:</span> 
+                            <span class="text-primary"> Montag - Samstag:</span> 
                         </div>
                         <div> 8:00 - 18:00 </div>
 
                         <div class="space-sm"></div>
-
-                        <div style="width: 200px; float: left ">
-                            <span class="text-primary"> Samstag - Sonntag:</span> 
-                        </div>
-                        <div> nach Vereinbarung </div>
-
 
                     </div>
                     <div class="col-md-4 screen-md-max_none_display">
