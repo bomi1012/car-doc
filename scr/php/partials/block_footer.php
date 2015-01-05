@@ -104,7 +104,7 @@
                             <p>Geschäftsführer: Eugen Luppow, Robert Lorenz</p>
                             <p>Registergericht: Amtsgericht Freiburg i. Br.<br/>
                                 Registemummer: HRB 706556<br/>
-                                Umsatzsteuer-Identiﬁkationsnmnmer: DE276l57141</p>
+                                Umsatzsteuer-Identiﬁkationsnmnmer: DE276157141</p>
                             <p>Verantwortlich nach § 55 Rundfunkstaatsvertrag <br/>
                                 Herr Eugen Luppow, CarDoc GmbH, Pappelweg 8, 77767 Appenweier. </p>
 

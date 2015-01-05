@@ -16,7 +16,7 @@
                 <span class="text-primary">
                     <i class="fa fa-clock-o"></i>                                
                 </span>
-                <span class="counter">12/6</span>
+                <span class="counter">10/6</span>
             </h3>
             <h4>6 Tagen in der Woche stehen wir Ihnen gerne zur Verfügung</h4>
         </div>
