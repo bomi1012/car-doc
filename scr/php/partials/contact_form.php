@@ -65,8 +65,8 @@ if (isset($_POST["submit_mail"])) {
                     <li>
                         <h3 class="text-primary">Öffnungszeiten</h3>
                         <ul class="list-unstyled">
-                            <li>Mo - Fr: 8:00 - 18:00</li>
-                            <li>Sa, So: nach Vereinbarung</li>
+                            <li>Mo - Sa: 8:00 - 18:00</li>
+                            <li>So: nach Vereinbarung</li>
                         </ul>
                     </li>
                 </ul>

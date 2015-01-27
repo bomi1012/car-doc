@@ -53,7 +53,7 @@
                 <div class="row">  
                     <div class="col-md-8 font_mb">
                         <div style="width: 200px; float: left ">
-                            <span class="text-primary"> Montag - Samstag:</span> 
+                            <span class="text-primary"> Montag - Samstag: </span> 
                         </div>
                         <div> 8:00 - 18:00 </div>
 
@@ -68,8 +68,7 @@
             <div class="tab-pane  in" id="profile_contacts">
                 <div class="row">
 
-                    <div class="col-md-8 font_mb">
-                        <h2 class="big-title text-primary">Kundenservice</h2>    
+                    <div class="col-md-8 font_mb"> 
                         <div style="width: 30px; float: left ">
                             <span class="text-primary"> <i class="fa fa-map-marker"></i></span> 
                         </div>
@@ -97,11 +96,6 @@
                         <div> <?php echo IConstants::CONTACT_EMAIL; ?>  </div>
 
                         <div class="space-sm-60"></div>  
-
-                        <div style="float: left ">
-                            <span class="text-primary">Wir sind für Sie jeden Tag 24 Stunden erreichtbar!</span> 
-                        </div>
-
                     </div>
                     <div class="col-md-4 screen-md-max_none_display">
                         <img class="full" src="custom/image/about_us/car-doc-office.jpeg" alt="Car-Doc | Büro | Lackservice">
