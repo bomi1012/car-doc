@@ -11,7 +11,6 @@
         <script src="ckeditor/ckeditor.js"></script>
     </head>
     <body>  
-
         <!-- google analytics -->
         <script>
             (function(i, s, o, g, r, a, m) {
@@ -30,15 +29,37 @@
             ga('send', 'pageview');
 
         </script>
+
+        <!-- Piwik -->
+        <script type="text/javascript">
+            var _paq = _paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+                var u = "//car-doc.info/piwik/";
+                _paq.push(['setTrackerUrl', u + 'piwik.php']);
+                _paq.push(['setSiteId', 1]);
+                var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+                g.type = 'text/javascript';
+                g.async = true;
+                g.defer = true;
+                g.src = u + 'piwik.js';
+                s.parentNode.insertBefore(g, s);
+            })();
+        </script>
+        <noscript><p><img src="//car-doc.info/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+        <!-- End Piwik Code -->
+        
+        
         <!-- Section: Main Navigation + Kontakt | Position: top -->    
         <?php include_once 'scr/php/partials/block_mainNavigation.php'; ?>
 
         <!--  Section Header Banner | Title + Text -->
         <span class="breakPoint" id="sTop"></span>
-<?php include_once 'scr/php/partials/block_header.php'; ?> 
+        <?php include_once 'scr/php/partials/block_header.php'; ?> 
 
         <span class="breakPoint" id="profile"></span>
-<?php include_once 'scr/php/partials/tabsnavigation.php'; ?>   
+        <?php include_once 'scr/php/partials/tabsnavigation.php'; ?>   
 
         <span class='breakPoint'></span>     
         <?php include_once 'scr/php/partials/bean_counter.php'; ?> 
@@ -48,7 +69,7 @@
         </div>
 
         <span class='breakPoint' id='services'></span>
-<?php include_once 'scr/php/partials/bean_circlel_grid_modal.php'; ?> ;
+        <?php include_once 'scr/php/partials/bean_circlel_grid_modal.php'; ?> ;
 
         <span class='breakPoint'></span>
         <?php include_once 'scr/php/partials/bean_select_gallery.php'; ?> 
@@ -59,7 +80,7 @@
 
         <!-- Contact us Section -->
         <span class="breakPoint" id="contacts"></span>
-<?php include_once 'scr/php/partials/contact_form.php'; ?>  
+        <?php include_once 'scr/php/partials/contact_form.php'; ?>  
 
         <!-- Google Maps -->
         <div id="map"></div>
@@ -71,10 +92,12 @@
 
 
         <!-- Footer -->
-<?php include_once 'scr/php/partials/block_footer.php'; ?> 
+        <?php include_once 'scr/php/partials/block_footer.php'; ?> 
 
 
         <!-- Scripts -->
-<?php include_once 'scr/php/partials/scripts.php'; ?> 
+        <?php include_once 'scr/php/partials/scripts.php'; ?> 
+
+
     </body>
 </html>
