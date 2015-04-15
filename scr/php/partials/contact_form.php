@@ -1,6 +1,6 @@
 <?php
 if (isset($_POST["submit_mail"])) {
-    include_once 'src/php/mailer.php';
+    include_once 'scr/php/mailer.php';
 }
 ?>
 
