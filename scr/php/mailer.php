@@ -19,7 +19,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "e.luppow@car-doc.info";
+        $recipient = IConstants::CONTACT_EMAIL;
 
         // Set the email subject.
         $subject = "car-doc | new contact from $name";
