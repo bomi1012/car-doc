@@ -1,6 +1,5 @@
 <?php
 $all = "mix";
-$a = "Autosprühfolie";
 $f = "Fahrzeuglackierung";
 $k = "Karosserieinstandsetzung";
 ?>
@@ -13,8 +12,6 @@ $k = "Karosserieinstandsetzung";
             <li class="filter active" data-filter="<?php echo $all; ?>"><span>Alle</span>
             </li>
             <li class="filter" data-filter="<?php echo $f; ?>"><span><?php echo $f; ?></span>
-            </li>
-            <li class="filter" data-filter="<?php echo $a; ?>"><span><?php echo $a; ?></span>
             </li>
             <li class="filter" data-filter="<?php echo $k; ?>"><span><?php echo $k; ?></span>
             </li>
@@ -164,60 +161,6 @@ $k = "Karosserieinstandsetzung";
                 </div>
             </li>
 
-                        <li class="col-md-4 <?php echo $all . " " . $a; ?>">
-                <div class="hover-content wow easeUp" data-wow-delay="0.25s">                   
-                    <a href="custom/image/bilder/20140604_082912.jpg" 
-                       title="<?php echo $a; ?>" 
-                       class="fancybox" 
-                       rel="group">
-                        <img src="custom/image/bilder/IMG_5879.JPG" class="img-responsive" alt="<?php echo $a; ?>">
-                    </a>
-                </div>
-            </li>
-            
-                        <li class="col-md-4 <?php echo $all . " " . $a; ?>">
-                <div class="hover-content wow easeUp" data-wow-delay="0.25s">                   
-                    <a href="custom/image/bilder/IMG_5879.JPG" 
-                       title="<?php echo $a; ?>" 
-                       class="fancybox" 
-                       rel="group">
-                        <img src="custom/image/bilder/IMG_5880.JPG" class="img-responsive" alt="<?php echo $a; ?>">
-                    </a>
-                </div>
-            </li>
-            
-                                    <li class="col-md-4 <?php echo $all . " " . $a; ?>">
-                <div class="hover-content wow easeUp" data-wow-delay="0.25s">                   
-                    <a href="custom/image/bilder/20140604_082912.jpg" 
-                       title="<?php echo $a; ?>" 
-                       class="fancybox" 
-                       rel="group">
-                        <img src="custom/image/bilder/IMG_5881.JPG" class="img-responsive" alt="<?php echo $a; ?>">
-                    </a>
-                </div>
-            </li>
-            
-                        <li class="col-md-4 <?php echo $all . " " . $a; ?>">
-                <div class="hover-content wow easeUp" data-wow-delay="0.25s">                   
-                    <a href="custom/image/bilder/IMG_5879.JPG" 
-                       title="<?php echo $a; ?>" 
-                       class="fancybox" 
-                       rel="group">
-                        <img src="custom/image/bilder/IMG_5884.JPG" class="img-responsive" alt="<?php echo $a; ?>">
-                    </a>
-                </div>
-            </li>
-            
-                                    <li class="col-md-4 <?php echo $all . " " . $a; ?>">
-                <div class="hover-content wow easeUp" data-wow-delay="0.25s">                   
-                    <a href="custom/image/bilder/IMG_5879.JPG" 
-                       title="<?php echo $a; ?>" 
-                       class="fancybox" 
-                       rel="group">
-                        <img src="custom/image/bilder/IMG_5887.JPG" class="img-responsive" alt="<?php echo $a; ?>">
-                    </a>
-                </div>
-            </li>
             
         </ul>
     </div>

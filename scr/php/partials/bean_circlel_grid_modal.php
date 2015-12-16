@@ -28,10 +28,10 @@
                         <div class="profile folie-1 lg-size"></div>
                         <div class="content-circle content-center"></div>
                     </div>
-                    <h3>Autosprühfolie</h3>
+                    <h3>Autoglas</h3>
                     <hr>
                     <p>
-                        Wir bearbeiten Motorräder, PKWs, LKWs und Omnibusse
+                        Steinschlagreparetur und tausch Autoscheiben für PKWs und LKWs
                     </p>
                 </div>
             </div>
